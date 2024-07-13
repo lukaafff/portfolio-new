@@ -1,0 +1,198 @@
+.container {
+    padding: 70px 15%;
+    background-color: #02253A;
+    color: #fff;
+    min-height: 700px;
+  }
+  
+  .content {
+    display: flex;
+    width: 100%;
+    margin-top: 70px;
+  }
+  
+  .sidebar {
+    flex: 1;
+    height: 306px;
+    background-color: #011826;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 30px;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+  
+  .sidebar a:hover {
+    color: #00C1F1; 
+  }
+  
+  .sidebar .active a {
+    color: #00C1F1; 
+    font-weight: bold;
+  }
+  
+  .details {
+    flex: 3;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 36px;
+  }
+  
+  .details ul {
+    margin-left: 20px;
+  }
+  
+  .experience h3 {
+    margin-top: 0;
+    font-size: 2.25rem;
+    color: #00C1F1;
+    margin-bottom: 25px;
+  }
+  
+  .experience h4 {
+    margin-top: 0;
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .experience p {
+    color: #888888;
+    margin-bottom: 15px;
+  }
+  
+  .experience ul {
+    padding: 0;
+  }
+  
+  .experience li {
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 1200px) {
+    .container {
+      padding: 50px 10%;
+    }
+    
+    .sidebar ul {
+      padding: 20px;
+    }
+    
+    .sidebar a {
+      font-size: 1.2rem;
+    }
+    
+    .details {
+      margin-left: 20px;
+    }
+    
+    .experience h3 {
+      font-size: 2rem;
+    }
+    
+    .experience h4 {
+      font-size: 1.75rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .content {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .sidebar {
+      width: 100%;
+      height: auto;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    
+    .sidebar ul {
+      padding: 10px;
+    }
+    
+    .details {
+      width: 100%;
+      margin-left: 0;
+    }
+    
+    .experience h3 {
+      font-size: 1.75rem;
+    }
+    
+    .experience h4 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 30px 5%;
+    }
+    
+    .content {
+      margin-top: 50px;
+    }
+    
+    .sidebar ul {
+      padding: 10px;
+    }
+    
+    .sidebar a {
+      font-size: 1rem;
+    }
+    
+    .details {
+      padding: 10px;
+    }
+    
+    .experience h3 {
+      font-size: 1.5rem;
+    }
+    
+    .experience h4 {
+      font-size: 1.25rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .container {
+      padding: 20px 5%;
+    }
+    
+    .content {
+      margin-top: 30px;
+    }
+    
+    .sidebar ul {
+      padding: 5px;
+    }
+    
+    .sidebar a {
+      font-size: 0.9rem;
+    }
+    
+    .details {
+      padding: 5px;
+    }
+    
+    .experience h3 {
+      font-size: 1.25rem;
+    }
+    
+    .experience h4 {
+      font-size: 1rem;
+    }
+  }
+  

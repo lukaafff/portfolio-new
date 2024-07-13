@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar'
 import Inicio from './pages/Inicio/Inicio'
 import SobreMim from './pages/SobreMim/SobreMim';
 import Skills from './pages/Skills/Skills';
+import Experiencias from './pages/Experiencias/Experiencias';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Inicio />
         <SobreMim />
         <Skills/>
+        <Experiencias/>
     </Router>
     </>
   )

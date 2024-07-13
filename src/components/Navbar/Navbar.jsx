@@ -11,9 +11,9 @@ function Header() {
       <nav className={styles.navbar}>
         <Link to="#inicio" className={styles.navLink}>Inicio</Link>
         <Link to="#sobre-mim" className={styles.navLink}>Sobre Mim</Link>
-        <Link to="#skills" className={styles.navLink}>Skills</Link>
-        <Link to="#servicos" className={styles.navLink}>Serviços</Link>
+        <Link to="#skills" className={styles.navLink}>Habilidades</Link>
         <Link to="#experiencias" className={styles.navLink}>Experiências</Link>
+        <Link to="#servicos" className={styles.navLink}>Serviços</Link>
         <Link to="#projetos" className={styles.navLink}>Projetos</Link>
         <Link to="#contato" className={styles.navLink}>Contato</Link>
       </nav>

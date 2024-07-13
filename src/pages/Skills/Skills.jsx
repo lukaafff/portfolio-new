@@ -87,8 +87,8 @@ function Skills() {
   return (
     <section className={style.container}>
       <div className="titleWrapper">
-        <h1 className="backgroundTitle">SKILLS</h1>
-        <h2 className="foregroundTitle">SKILLS</h2>
+        <h1 className="backgroundTitle">HABILIDADES</h1>
+        <h2 className="foregroundTitle">HABILIDADES</h2>
       </div>
 
       <Slider {...settings} className={style.slider}>
