@@ -6,27 +6,6 @@
     position: relative;
   }
   
-  .titleWrapper {
-    position: relative;
-    text-align: center;
-  }
-  
-  .backgroundTitle {
-    font-size: 5.625rem;
-    opacity: 0.1;
-    margin: 0;
-  }
-  
-  .foregroundTitle {
-    font-size: 2.5rem;
-    color: #00C1F1;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
-  }
-  
   .content {
     display: flex;
     justify-content: space-between;

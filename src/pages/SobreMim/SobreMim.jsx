@@ -6,9 +6,9 @@ function SobreMim() {
   return (
     <section className={style.container}>
 
-      <div className={style.titleWrapper}>
-        <h1 className={style.backgroundTitle}>SOBRE MIM</h1>
-        <h2 className={style.foregroundTitle}>SOBRE MIM</h2>
+      <div className="titleWrapper">
+        <h1 className="backgroundTitle">SOBRE MIM</h1>
+        <h2 className="foregroundTitle">SOBRE MIM</h2>
       </div>
 
       <div className={style.content}>

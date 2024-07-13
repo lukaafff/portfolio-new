@@ -1,0 +1,48 @@
+.container {
+  padding: 70px 0;
+  background-color: #012134;
+  color: #fff;
+  height: auto;
+  position: relative;
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+.gridWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.skillItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #0E364F;
+  width: 233px;
+  height: 72px;
+  border-radius: 6px;
+}
+
+.icon {
+  width: auto;
+  height: 48px;
+}
+
+.iconName {
+  margin-top: 10px;
+  padding-left: 20px;
+  font-size: 16px;
+}
