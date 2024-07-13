@@ -1,0 +1,37 @@
+.container {
+    padding: 70px 15% 70px 15%;
+    background-color: #012134;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    max-width: 50%;
+}
+
+.content h1 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.content h2 {
+    font-size: 150px;
+    color: #00C1F1;
+    margin-bottom: 25px;
+}
+
+.content p {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    line-height: 50px;
+}
+
+.avatar {
+    width: 484px;
+    border-radius: 50%;
+    object-fit: cover;
+}
