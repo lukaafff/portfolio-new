@@ -4,7 +4,7 @@ import foto from '../../assets/imgs/luiza foto.jpeg';
 
 function SobreMim() {
   return (
-    <section className={style.container}>
+    <section id="sobre-mim" className={style.container}>
 
       <div className="titleWrapper">
         <h1 className="backgroundTitle">SOBRE MIM</h1>

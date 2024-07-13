@@ -12,7 +12,37 @@ function Skills() {
     slidesToShow: 6,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4000
+    autoplaySpeed: 4000,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   const settings2 = {
@@ -21,7 +51,37 @@ function Skills() {
     slidesToShow: 6,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 6000
+    autoplaySpeed: 6000,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   return (
@@ -33,7 +93,7 @@ function Skills() {
 
       <Slider {...settings} className={style.slider}>
         {icons.slice(0, 6).map((icon, index) => (
-          <div key={index} className={style.gridWrapper}>
+          <div key={index}>
             <div key={index} className={style.skillItem}>
               <img src={icon.src} alt={icon.alt} className={style.icon} />
               <span className={style.iconName}>{icon.alt}</span>
@@ -44,7 +104,7 @@ function Skills() {
 
       <Slider {...settings2} className={style.slider}>
         {icons.slice(6, 12).map((icon, index) => (
-          <div key={index} className={style.gridWrapper}>
+          <div key={index}>
             <div key={index} className={style.skillItem}>
               <img src={icon.src} alt={icon.alt} className={style.icon} />
               <span className={style.iconName}>{icon.alt}</span>
@@ -55,7 +115,7 @@ function Skills() {
 
       <Slider {...settings} className={style.slider}>
         {icons.slice(12, 18).map((icon, index) => (
-          <div key={index} className={style.gridWrapper}>
+          <div key={index}>
             <div key={index} className={style.skillItem}>
               <img src={icon.src} alt={icon.alt} className={style.icon} />
               <span className={style.iconName}>{icon.alt}</span>

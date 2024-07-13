@@ -9,7 +9,7 @@ function Header() {
       <a href="/"><img className={styles.logo} src={logo} alt="Logo Luiza Garcia" /></a> 
 
       <nav className={styles.navbar}>
-        <Link to="/" className={styles.navLink}>Inicio</Link>
+        <Link to="#inicio" className={styles.navLink}>Inicio</Link>
         <Link to="#sobre-mim" className={styles.navLink}>Sobre Mim</Link>
         <Link to="#skills" className={styles.navLink}>Skills</Link>
         <Link to="#servicos" className={styles.navLink}>Serviços</Link>

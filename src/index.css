@@ -30,13 +30,13 @@ button {
 }
 
 .backgroundTitle {
-  font-size: 5.625rem;
+  font-size: clamp(3rem, 10vw, 5.625rem);
   opacity: 0.1;
   margin: 0;
 }
 
 .foregroundTitle {
-  font-size: 2.5rem;
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
   color: #00C1F1;
   position: absolute;
   top: 25%;
@@ -45,13 +45,13 @@ button {
   margin: 0;
 }
 
-/* ::-webkit-scrollbar{
+::-webkit-scrollbar{
   width: 6px;
-  background-color: var(--bg-color2);
-  border: 5px solid var(--bg-color2);
+  background-color: #012134;
+  border: 5px solid #012134;
 }
 
 ::-webkit-scrollbar-thumb{
-  background-color: var(--text-color);
+  background-color: #00C1F1;
   border-radius: 50px;
- */
+}
