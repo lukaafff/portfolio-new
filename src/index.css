@@ -12,6 +12,12 @@ a {
   overflow-x: hidden;
 }
 
+input,
+textarea {
+  border: none;
+  outline: none;
+}
+
 button {
   background-color: #00C1F1;
   border: none;

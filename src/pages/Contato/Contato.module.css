@@ -1,0 +1,108 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 15%;
+    background-color: #012134;
+    color: #fff;
+    height: auto;
+  }
+  
+  .subtitle {
+    font-size: 2rem;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .form {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .inputGroupRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 10px;
+    flex: 1;
+    max-width: 320px; 
+  }
+  
+  .inputGroup label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  .inputGroup input,
+  .inputGroup textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #d9d9d9;
+    color: #333;
+    border-radius: 20px;
+  }
+  
+  .inputGroup textarea {
+    height: 300px;
+    width: 100%; 
+    resize: none;
+    margin-bottom: 50px;
+    box-shadow: -8px 8px 0px 0px #00C1F1;
+  }
+  
+  .inputGroup input {
+    box-shadow: -5px 5px 0px 0px #00C1F1;
+  }
+  
+  .inputGroup.fullWidth {
+    width: 100%; 
+    max-width: none; 
+  }
+  
+  @media (max-width: 768px) {
+    .inputGroupRow {
+      flex-direction: column;
+    }
+  
+    .inputGroup {
+      width: 100%;
+      max-width: none;
+      margin: 10px 0;
+    }
+  
+    .inputGroup textarea {
+      height: 150px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 40px 10%;
+    }
+  
+    .subtitle {
+      font-size: 1.5rem;
+    }
+  
+    .inputGroup input,
+    .inputGroup textarea {
+      font-size: 1rem;
+      padding: 8px;
+    }
+  }
+  

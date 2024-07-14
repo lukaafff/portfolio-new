@@ -8,6 +8,7 @@ import Experiencias from './pages/Experiencias/Experiencias';
 import Footer from './components/Footer/Footer';
 import Servicos from './pages/Servicos/Servicos';
 import Projetos from './pages/Projetos/Projetos';
+import Contato from './pages/Contato/Contato';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Experiencias/>
         <Servicos/>
         <Projetos/>
+        <Contato/>
         <Footer/>
     </Router>
     </>
