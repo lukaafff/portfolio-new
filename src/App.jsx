@@ -6,6 +6,7 @@ import SobreMim from './pages/SobreMim/SobreMim';
 import Skills from './pages/Skills/Skills';
 import Experiencias from './pages/Experiencias/Experiencias';
 import Footer from './components/Footer/Footer';
+import Servicos from './pages/Servicos/Servicos';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <SobreMim />
         <Skills/>
         <Experiencias/>
+        <Servicos/>
         <Footer/>
     </Router>
     </>
