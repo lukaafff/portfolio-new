@@ -19,16 +19,16 @@ function Experiencias() {
         <nav className={style.sidebar}>
           <ul>
             <li className={activeExperience === 'beCoders' ? style.active : ''}>
-              <a href="#beCoders" onClick={() => handleExperienceChange('beCoders')}>BeCoders</a>
+              <a onClick={() => handleExperienceChange('beCoders')}>BeCoders</a>
             </li>
             <li className={activeExperience === 'designGarcia' ? style.active : ''}>
-              <a href="#designGarcia" onClick={() => handleExperienceChange('designGarcia')}>Design Garcia</a>
+              <a onClick={() => handleExperienceChange('designGarcia')}>Design Garcia</a>
             </li>
-            <li className={activeExperience === 'eCatalogos' ? style.active : ''}>
+           {/*  <li className={activeExperience === 'eCatalogos' ? style.active : ''}>
               <a href="#eCatalogos" onClick={() => handleExperienceChange('eCatalogos')}>E-Catalogos</a>
-            </li>
+            </li> */}
             <li className={activeExperience === 'imovelGuide' ? style.active : ''}>
-              <a href="#imovelGuide" onClick={() => handleExperienceChange('imovelGuide')}>Imóvel Guide</a>
+              <a onClick={() => handleExperienceChange('imovelGuide')}>Imóvel Guide</a>
             </li>
           </ul>
         </nav>
@@ -37,7 +37,7 @@ function Experiencias() {
           {activeExperience === 'beCoders' && (
             <div id="beCoders" className={style.experience}>
               <h3>Desenvolvedora web</h3>
-              <p>Janeiro 2024 - Atual</p>
+              <p>Março 2024 - Atual</p>
               <h4>BeCoders</h4>
               <ul>
                 <li>Desenvolvimento Web:</li>
@@ -64,7 +64,7 @@ function Experiencias() {
             </div>
           )}
 
-          {activeExperience === 'eCatalogos' && (
+         {/*  {activeExperience === 'eCatalogos' && (
             <div id="eCatalogos" className={style.experience}>
               <h3>Desenvolvedora Web</h3>
               <p>Julho 2024 - Atual</p>
@@ -76,12 +76,12 @@ function Experiencias() {
                 <li>Testes e depuração de código;</li>
               </ul>
             </div>
-          )}
+          )} */}
 
           {activeExperience === 'imovelGuide' && (
             <div id="imovelGuide" className={style.experience}>
               <h3>Desenvolvedora Back-end</h3>
-              <p>Janeiro 2021 - Maio 2022</p>
+              <p>Fevereiro 2024 - Junho 2024</p>
               <h4>Imóvel Guide</h4>
               <ul>
                 <li>Desenvolvimento de plataforma de imóveis;</li>

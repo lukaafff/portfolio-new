@@ -37,9 +37,15 @@
     object-fit: cover;
     margin-top: 20px;
   }
+
+  .iconBox {
+    display: flex;
+    gap: .5rem;
+  }
   
   @media (max-width: 1200px) {
     .content {
+      padding-top: 3rem;
       max-width: 60%;
       text-align: center;
     }
@@ -70,6 +76,10 @@
   
     .avatar {
       width: 300px;
+    }
+
+    .iconBox {
+      margin: auto;
     }
   }
   

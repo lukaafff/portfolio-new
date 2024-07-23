@@ -12,7 +12,7 @@ function Servicos() {
 
       <div className={styles.cards}>
         <div className={styles.card}>
-          <h3>DESIGN GRÁFICO</h3>
+          <h3>DESIGNER</h3>
           <p>Eu ofereço soluções criativas para todas as suas necessidades visuais. Desde logotipos impactantes até materiais de marketing, estou pronta para transformar suas ideias em realidade. Acredito que um bom design é essencial para comunicar sua mensagem de maneira eficaz.</p>
           <button>Ver projetos</button>
         </div>
