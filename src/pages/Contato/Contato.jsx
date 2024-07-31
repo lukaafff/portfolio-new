@@ -8,14 +8,21 @@ function Contato() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_1duus7m', 'template_btj51d5', form.current, 'wWVSvqU--9Mtucd56')
-      .then((result) => {
-          console.log(result.text);
-          alert('Mensagem enviada com sucesso!');
-      }, (error) => {
-          console.log(error.text);
-          alert('Ocorreu um erro ao enviar a mensagem. Tente novamente.');
-      });
+    emailjs.sendForm(
+      import.meta.env.VITE_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+      form.current,
+      import.meta.env.VITE_EMAILJS_USER_ID
+    )
+    .then((result) => {
+        console.log(result.text);
+        alert('Mensagem enviada com sucesso!');
+        
+        form.current.reset();
+    }, (error) => {
+        console.log(error.text);
+        alert('Ocorreu um erro ao enviar a mensagem. Tente novamente.');
+    });
   };
 
   return (
