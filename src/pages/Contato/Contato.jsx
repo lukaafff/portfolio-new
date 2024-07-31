@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import { toast } from 'react-toastify';
 import styles from './Contato.module.css';
 
 function Contato() {
@@ -15,13 +16,10 @@ function Contato() {
       import.meta.env.VITE_EMAILJS_USER_ID
     )
     .then((result) => {
-        console.log(result.text);
-        alert('Mensagem enviada com sucesso!');
-        
+        toast.success('Mensagem enviada com sucesso!');
         form.current.reset();
     }, (error) => {
-        console.log(error.text);
-        alert('Ocorreu um erro ao enviar a mensagem. Tente novamente.');
+        toast.error('Ocorreu um erro ao enviar a mensagem. Tente novamente.');
     });
   };
 
