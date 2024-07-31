@@ -4,7 +4,7 @@ import avatar from '../../assets/imgs/luiza.jpg'
 
 const Inicio = () => {
   return (
-    <section className={styleInicio.container}>
+    <section id="inicio" className={styleInicio.container}>
 
         <div className={styleInicio.content}>
             <h1>Olá, eu sou a</h1>

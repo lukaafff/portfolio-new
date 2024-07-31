@@ -3,7 +3,7 @@ import styles from './Servicos.module.css';
 
 function Servicos() {
   return (
-    <section className={styles.container}>
+    <section id="servicos" className={styles.container}>
 
       <div className="titleWrapper">
         <h1 className="backgroundTitle">SERVIÇOS</h1>
@@ -11,15 +11,16 @@ function Servicos() {
       </div>
 
       <div className={styles.cards}>
+        
         <div className={styles.card}>
-          <h3>DESIGNER</h3>
-          <p>Eu ofereço soluções criativas para todas as suas necessidades visuais. Desde logotipos impactantes até materiais de marketing, estou pronta para transformar suas ideias em realidade. Acredito que um bom design é essencial para comunicar sua mensagem de maneira eficaz.</p>
+          <h3>DESENVOLVIMENTO</h3>
+          <p>Eu desenvolvo soluções digitais que atendem às suas necessidades. Sou especializado em criar websites responsivos e sistemas web personalizados. Utilizo as tecnologias mais recentes para garantir que seu projeto esteja sempre à frente.</p>
           <button>Ver projetos</button>
         </div>
 
         <div className={styles.card}>
-          <h3>DESENVOLVIMENTO</h3>
-          <p>Eu desenvolvo soluções digitais que atendem às suas necessidades. Sou especializado em criar websites responsivos e sistemas web personalizados. Utilizo as tecnologias mais recentes para garantir que seu projeto esteja sempre à frente.</p>
+          <h3>DESIGN</h3>
+          <p>Eu ofereço soluções criativas para todas as suas necessidades visuais. Desde logotipos impactantes até materiais de marketing, estou pronta para transformar suas ideias em realidade. Acredito que um bom design é essencial para comunicar sua mensagem de maneira eficaz.</p>
           <button>Ver projetos</button>
         </div>
       </div>

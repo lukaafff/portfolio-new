@@ -9,7 +9,7 @@ function Experiencias() {
   };
 
   return (
-    <section className={style.container}>
+    <section id="experiencias" className={style.container}>
       <div className="titleWrapper">
         <h1 className="backgroundTitle">EXPERIÊNCIAS</h1>
         <h2 className="foregroundTitle">EXPERIÊNCIAS</h2>

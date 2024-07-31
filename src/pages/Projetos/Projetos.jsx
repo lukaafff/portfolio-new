@@ -3,7 +3,7 @@ import styles from './Projetos.module.css';
 
 function Projetos() {
   return (
-    <section className={styles.container}>
+    <section id="projetos" className={styles.container}>
 
     <div className="titleWrapper">
         <h1 className="backgroundTitle">PROJETOS</h1>

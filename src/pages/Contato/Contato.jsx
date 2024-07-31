@@ -3,7 +3,7 @@ import styles from './Contato.module.css';
 
 function Contato() {
   return (
-    <section className={styles.container}>
+    <section id="contato" className={styles.container}>
       <div className="titleWrapper">
         <h1 className="backgroundTitle">CONTATO</h1>
         <h2 className="foregroundTitle">CONTATO</h2>

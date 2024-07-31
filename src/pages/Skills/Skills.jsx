@@ -85,7 +85,7 @@ function Skills() {
   };
 
   return (
-    <section className={style.container}>
+    <section id="skills" className={style.container}>
       <div className="titleWrapper">
         <h1 className="backgroundTitle">HABILIDADES</h1>
         <h2 className="foregroundTitle">HABILIDADES</h2>
