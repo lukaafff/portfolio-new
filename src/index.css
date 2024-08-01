@@ -43,7 +43,7 @@ button:hover {
 }
 
 .backgroundTitle {
-  font-size: clamp(3rem, 10vw, 5.625rem);
+  font-size: clamp(2rem, 10vw, 5.625rem);
   opacity: 0.1;
   margin: 0;
 }

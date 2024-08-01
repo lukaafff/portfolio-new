@@ -8,3 +8,8 @@
     justify-content: center;
     text-align: center;
 }
+
+.footer p {
+    font-size: .8rem;
+    width: 80%;
+}

@@ -39,7 +39,8 @@
     padding: 6px 10px;
   }
   
-  .navbar .navLink:hover {
+  .navbar .navLink:hover,
+  .navbar .navLink.active {
     background-color: #00C1F1;
     border-radius: 20px;
     transition: background-color 0.3s;
