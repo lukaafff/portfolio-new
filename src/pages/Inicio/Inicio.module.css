@@ -39,8 +39,21 @@
   }
 
   .iconBox {
-    display: flex;
-    gap: .5rem;
+    background-color: #00C1F1;
+    border: none;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-decoration: none; 
+    display: inline-flex; 
+    align-items: center;
+  }
+  
+  .iconBox:hover {
+    background-color: #019ECF;
   }
   
   @media (max-width: 1200px) {
