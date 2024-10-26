@@ -16,13 +16,7 @@ function Header() {
   };
 
   const getLinkClass = (path) => {
-    if (path === '/' && location.pathname === '/') {
-      return styles.active;
-    }
-    if (path !== '/' && location.hash === path) {
-      return styles.active;
-    }
-    return '';
+    return location.hash === path ? styles.active : '';
   };
 
   return (
@@ -32,7 +26,7 @@ function Header() {
         <i className={menuOpen ? 'bx bx-x' : 'bx bx-menu'}></i>
       </div>
       <nav className={`${styles.navbar} ${menuOpen ? styles.open : ''}`}>
-        <a href="#inicio" className={`${styles.navLink} ${getLinkClass('/')}`} onClick={closeMenu}>Inicio</a>
+        <a href="#inicio" className={`${styles.navLink} ${getLinkClass('#inicio')}`} onClick={closeMenu}>Inicio</a>
         <a href="#sobre-mim" className={`${styles.navLink} ${getLinkClass('#sobre-mim')}`} onClick={closeMenu}>Sobre Mim</a>
         <a href="#skills" className={`${styles.navLink} ${getLinkClass('#skills')}`} onClick={closeMenu}>Habilidades</a>
         <a href="#experiencias" className={`${styles.navLink} ${getLinkClass('#experiencias')}`} onClick={closeMenu}>Experiências</a>
