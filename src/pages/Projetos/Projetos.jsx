@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styles from './Projetos.module.css';
-import projetosData from './projetos'; 
+import projetosData from './projetosdata.jsx'; 
 
 function Projetos() {
   const [activeCategory, setActiveCategory] = useState('todos');
